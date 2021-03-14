@@ -52,7 +52,7 @@ However, while the data has been regularly updated, the team has yet to implemen
         - data zip files from citi bank data website
         - couldn't include the combined dataset since it's too large
        
-    - tabluea-images folder
+    - tableau-images folder
             - Screenshots of visualizations from the story I created using Tableau
     
     - DataCombining.ipynb
