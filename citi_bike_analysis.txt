@@ -1,0 +1,19 @@
+Citi Bank Analysis
+
+Data Selection:
+
+For the Citi Bike data, I combined the January and February datasets from 2019, 2020, and 2021 together into a single csv file through Pandas in Jupyter Notebook. The reason for that is the most recent data available for 2021 is from January and February, and I am interested in discovering some hidden trends by comparing the same time phase for the past two years.
+
+Gender Phenomenon:
+
+Looking at only January and February, we can see that year 2020 had the most ridership, year 2019 had the second highest ridership, while 2021 had the lowest ridership. An explanation for that could be the impact of COVID-19, which was declared as a National Emergency in the United States on March 13, 2020 (https://www.ajmc.com/view/a-timeline-of-covid19-developments-in-2020), and people started to shelter in place and work from home, which decreased the number of people outside and using the Citi Bike service.
+
+Diving deeper into the data, we can see that majority of the ridership come from male riders, but there was a big percentage drop in male ridership in year 2021. The drop in male ridership in 2021 could be because of the pandemic, less people were going out and using the service. Female ridership remained roughly the same across the three years. It is interesting to note that there was a huge increase of unknown gender ridership in 2021, which could be from new riders who just wanted to use the service short term to avoid using the public transportation. In order to ascertain this explanation, I created a table that contains the usertype information for each gender across the years. From the table, we see that almost all increase for the unknown ridership did come from usertype as customer (24 hours or 3-day pass, whereas subscriber is annual member).
+
+Station Phenomenon:
+
+Looking at top 10 start and end stations, we could see that they are almost identical to each other. The top 1 station is “Pershing Square North,” which is near the Grand Central Terminal, so people probably get on the bikes after getting off the station to get to their next destinations. When we look at the station maps, we could see that most ridership happen frequently in Manhattan borough, which makes sense, since Manhattan is the commercial, financial and cultural centers. No deny that many people travel around in Manhattan daily, and because of the dense travel flow, bike would be an ideal transportation tool to get people around there.
+
+City Official Required Map:
+
+The map is filtered to show only stations that have greater than 200 ridership per month. It’s interesting to note that the start station “E 7 St & Avenue A” with end station “Cooper Square & Astor Pl” had been the top 1 in terms of ridership in 2019 and 2020, but disappeared from map in 2021. In addition, the start station “W 21 St & 6 Ave” and end station “9 Ave & W 22 St” had gained popularity from 2019 to 2020 and remained the most popular stations in 2021. There were also good amounts of ridership outside of Manhattan borough, in the Brooklyn borough area in 2019 and 2020, but there was barely any to no ridership that was over 200 outside of Manhattan in 2021. 
